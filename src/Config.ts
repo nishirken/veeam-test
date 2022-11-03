@@ -1,11 +1,4 @@
-## Veeam test task
-
-```npm install && npm start```
-
-### The app accepts the following JSON schema (see example.json)
-```typescript
-export type InputFieldType =
-    'number' | 'text' | 'textarea' | 'checkbox' | 'date';
+export type InputFieldType = 'number' | 'text' | 'textarea' | 'checkbox' | 'date';
 
 export enum ButtonType {
     Submit = 'submit',
@@ -48,4 +41,3 @@ export type Config = {
     };
     fields: InputField[];
 };
-```

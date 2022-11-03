@@ -1,0 +1,17 @@
+{
+    "fields": [
+        { "type": "number", "label": "Num", "name": "num" },
+        { "type": "text", "label": "Text", "name": "text" },
+        { "type": "checkbox", "label": "Chechbox", "name": "checkbox" },
+        { "type": "radio", "label": "Radio", "items": [ {"value": "1", "label": "One"}, {"value": "2", "label": "Two"} ], "name": "radio" },
+        { "type": "date", "label": "Date", "name": "date" },
+        { "type": "textarea", "label": "Textarea", "name": "textarea" }
+    ],
+    "submitButton": {
+        "text": "Submit"
+    },
+    "resetButton": {
+        "text": "Reset"
+    },
+    "title": "Form"
+}
